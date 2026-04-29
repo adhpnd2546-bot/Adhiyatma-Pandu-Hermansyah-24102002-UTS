@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+    line-height: 1.6;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 30px 30px 5px rgb(255, 255, 255);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.suyou {
+    text-align: center;
+    padding: 80px 20px;
+    background: #3b82f6;
+    color: white;
+}
+
+.suyou h1 {
+    font-size: 50px; 
+    margin-bottom: 10px;
+}
+
+.suyou p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.tombol-iki {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #3b82f6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tentang-le {
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    background: #1e3a8a;
+}
+
+.tentang-le p {
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.ingfone-maszeh {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.kartu {
+    color: #1e3a8a;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aqua;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(10, 9, 9);
+}
+
+.daftar-bos {
+    color: white;
+    padding: 50px 20px;
+    background: #3b82f6;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.porm-grupe {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.tombol-beh {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #3b82f6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    background: #1e3a8a;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .ingfone-maszeh {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
